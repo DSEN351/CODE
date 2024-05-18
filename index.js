@@ -202,6 +202,8 @@ const publicPath= path.join(__dirname,"public");
 //     resp.sendFile(`${publicPath}/error.html`);
 // })
 
+
+//USING EJS TEMPLATE 
 app.set('view engine','ejs');
 
 app.get('/profile',(req,resp)=>{
